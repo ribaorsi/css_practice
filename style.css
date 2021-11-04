@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+
+    background: transparent;
+
+    font-family: inherit;
+
+    text-decoration: none;
+}
+
+.level {
+    
+    padding: 5vh;
+    
+}
+
+.level1 {
+    
+    margin: 5vh auto;
+
+    width: 90vh;
+    height: 90vh;
+    background-color: #be6e46;
+}
+
+.level2 {
+
+    width: 80vh;
+    height: 80vh;
+    background-color: #cde7b0;
+}
+
+.level3 {
+
+    width: 70vh;
+    height: 70vh;
+    background-color: #7286a0;
+}
+
+.level4 {
+
+    width: 60vh;
+    height: 60vh;
+    background-color: #a3bfa8;
+}
+
+.level5 {
+
+    width: 50vh;
+    height: 50vh;
+    background-color: #68685a;
+}
+
+.level6 {
+
+    width: 40vh;
+    height: 40vh;
+    background-color: #767669;
+}
+
+.level7 {
+
+    width: 30vh;
+    height: 30vh;
+    background-color: #828277;
+}
+
+.level8 {
+
+    width: 20vh;
+    height: 20vh;
+    background-color: #59594a;
+
+    padding: 0;
+}
+
+.level8::before {
+    content: "Before " ;
+}
+
+.level8::after {
+    content: "After " ;
+}
